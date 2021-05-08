@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
 
 const Player = () => {
 
@@ -13,7 +14,7 @@ const Player = () => {
                         frameBorder="0"
                     />
                 </div>
-            <div className={'player-btn-cancel'}>x</div>
+            <NavLink to={'/'} className={'player-btn-cancel'}>x</NavLink>
         </div>
 
     );
